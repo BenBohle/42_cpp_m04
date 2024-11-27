@@ -1,7 +1,7 @@
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++17
 
-SRCS = main.cpp Animal.cpp WrongAnimal.cpp Brain.cpp
+SRCS = main.cpp Animal.cpp WrongAnimal.cpp Brain.cpp Dog.cpp Cat.cpp
 OBJS = $(SRCS:.cpp=.o)
 TARGET = abstract
 

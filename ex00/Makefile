@@ -1,7 +1,7 @@
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++17
 
-SRCS = main.cpp Animal.cpp WrongAnimal.cpp
+SRCS = main.cpp Animal.cpp WrongAnimal.cpp Dog.cpp Cat.cpp
 OBJS = $(SRCS:.cpp=.o)
 TARGET = polymorphism
 

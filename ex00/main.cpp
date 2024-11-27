@@ -6,13 +6,15 @@
 /*   By: bbohle <bbohle@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/27 05:30:18 by bbohle            #+#    #+#             */
-/*   Updated: 2024/11/27 05:51:29 by bbohle           ###   ########.fr       */
+/*   Updated: 2024/11/27 09:02:45 by bbohle           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 
 #include "Animal.hpp"
 #include "WrongAnimal.hpp"
+#include "Dog.hpp"
+#include "Cat.hpp"
 
 int main() {
     const Animal* meta = new Animal();
